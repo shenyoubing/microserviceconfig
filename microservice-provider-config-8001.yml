@@ -45,6 +45,8 @@ info:
 management:
   security:
     enabled: false
+    
+    
 ---
 spring:
   profiles: test
