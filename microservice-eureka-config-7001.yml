@@ -7,7 +7,7 @@
 spring:
   profiles: dev
   application:
-    name: microservice-eureka-config-dev
+    name: microservice-eureka-config-7001
 
 server:
   port: 7001
@@ -27,7 +27,7 @@ eureka:
 spring:
   profiles: test
   application:
-    name: microservice-eureka-config-test
+    name: microservice-eureka-config-7001
 
 server:
   port: 7001
