@@ -13,8 +13,8 @@ spring:
     url: jdbc:mysql://localhost:3306/cdb01
     username: root
     password: root
-  application:
-    name: microservice-dept
+
+    
 server:
   port: 8001
 
@@ -55,8 +55,7 @@ spring:
     url: jdbc:mysql://localhost:3306/cdb02
     username: root
     password: root
-  application:
-    name: microservice-dept
+
     
 server:
   port: 8001
