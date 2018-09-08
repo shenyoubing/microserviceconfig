@@ -7,7 +7,7 @@
 spring:
   profiles: dev
   application:
-    name: microservice-provider-config-dev
+    name: microservice-provider-config-8001
 
 server:
   port: 8001
@@ -50,7 +50,7 @@ management:
 spring:
   profiles: test
   application:
-    name: microservice-provider-config-test
+    name: microservice-provider-config-8001
 
 server:
   port: 8001
