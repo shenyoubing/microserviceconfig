@@ -37,7 +37,7 @@ eureka:
 info:
   app.name: syb-microservice
   company.name: www.syb.com
-  build.artifactId: $project.artifactId@
+  build.artifactId: $project.artifactId$
   build.version: $project.version$
 management:
   security:
@@ -80,7 +80,7 @@ eureka:
 info:
   app.name: syb-microservice
   company.name: www.syb.com
-  build.artifactId: @project.artifactId$
+  build.artifactId: $project.artifactId$
   build.version: $project.version$
 management:
   security:
