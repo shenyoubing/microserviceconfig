@@ -19,8 +19,8 @@ mybatis:
 
 
 spring:
-  datasource:				#配置数据源				
-    type: com.alibaba.druid.pool.DruidDataSource
+  datasource:								
+    type: com.alibaba.druid.pool.DruidDataSource            #配置数据源
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/cdb01
     username: root
